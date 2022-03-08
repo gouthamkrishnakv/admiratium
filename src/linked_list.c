@@ -1,4 +1,15 @@
+/**
+ * @file linked_list.c
+ * @author Goutham Krishna K V (gauthamkrishna9991@live.com)
+ * @brief Linked List
+ * @version 0.1
+ * @date 2022-03-09
+ *
+ * @copyright Copyright (c) 2022 Goutham Krishna K V
+ *
+ */
 
+// Import Header
 
 #include "linked_list.h"
 

@@ -1,3 +1,14 @@
+/**
+ * @file main.c
+ * @author Goutham Krishna K V (gauthamkrishna9991@live.com)
+ * @brief C Implementation of Linked-list.
+ * @version 0.1
+ * @date 2022-03-09
+ *
+ * @copyright Copyright (c) 2022 Goutham Krishna K V
+ *
+ */
+
 #include <limits.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -42,6 +53,7 @@ int main() {
       linked_list_print(list);
       break;
     case QUIT:
+      linked_list_destroy(list);
       break;
     default:
       printf("ERROR!");

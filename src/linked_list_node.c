@@ -1,10 +1,17 @@
-// IMPLTN: Linked List Node
+/**
+ * @file linked_list_node.c
+ * @author Goutham Krishna K V (gauthamkrishna9991@live.com)
+ * @brief Linked List Node
+ * @version 0.1
+ * @date 2022-03-09
+ *
+ * @copyright Copyright (c) 2022
+ *
+ */
 
-// Import Header
+// IMPORT HEADER
 
 #include "linked_list_node.h"
-
-// Create: Defn
 
 linked_list_node *linked_list_node_create(int64_t ele, linked_list_node *next) {
   linked_list_node *new_node =
@@ -17,7 +24,5 @@ linked_list_node *linked_list_node_create(int64_t ele, linked_list_node *next) {
   new_node->next = next;
   return new_node;
 }
-
-// Destroy: Defn
 
 void linked_list_node_destroy(linked_list_node *const node) { free(node); }
